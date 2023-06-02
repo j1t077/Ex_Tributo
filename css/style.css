@@ -48,7 +48,6 @@ header {
   .banner {
     display: flex;
     justify-content: center;
-    border: 5px solid blue;
     height: 560px;
     background-color: #1c1c1c;
     color: #ED582E;
@@ -107,5 +106,24 @@ header {
     text-align: center;
     width: 100%;
     height: 75px;
+  }
+
+  .flexGalery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .fila {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .fila img {
+    width: 300px;
+    height: 300px;
+    margin: 2px;
   }
   
