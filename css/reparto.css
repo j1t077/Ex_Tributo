@@ -1,4 +1,3 @@
-@import url("galeria.css");
 
 body {
     width: 100%;
@@ -55,7 +54,6 @@ header {
     color: #ED582E;
   }
   
-
   .imagen-banner{
     text-align: center;
   }
@@ -77,50 +75,55 @@ header {
     text-shadow: 2px 2px #ED582E;
   }
 
-  .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
+  .main{
+    width: 100%;
   }
 
-  .flexContainer {
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-    width: 90%;
+ .actorTitle {
+width: 40%;
+text-align: center;
+margin-top: 80px;
+font-size: 25px;
+ }
 
-    border: 2px solid black;
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+  }
+
+  .imgContainer img{
+    width: 100%;
+  }
+
+  #imgJack {
+    width: 400px;
+    margin: 10px auto;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
-  .imgContainer {
-   width: 50%;
-    border: 2px solid black;
+  #imgShelly{
+    width: 400px;
+    margin: 10px auto;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-   .txtContained {
-    width: 50%;
-    border: 2px solid black;
+  .txtContained{
+    display: column;
+    justify-content: right;
+    width:50%;
+    font-size: 21px;
   }
 
-  .flexContenedor{
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-  }
-  .txtImage{
-    text-align: center;
-    width: 70%;
-  }
-
-  .txtImage img{
-    width: 70%;
-  }
-
-  .txtTributo{
-    width: 100%;
-    text-align: left;
-    font-size: 20px;
+  .separate{
+    width: 800px;
+    height: 2px;
+    color: #ED582E;
   }
 
   h1, h3, p{
@@ -140,5 +143,3 @@ header {
     width: 100%;
     height: 75px;
   }
-
-  

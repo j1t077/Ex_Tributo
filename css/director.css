@@ -1,5 +1,3 @@
-@import url("galeria.css");
-
 body {
     width: 100%;
     background-color: #1c1c1c;
@@ -77,50 +75,29 @@ header {
     text-shadow: 2px 2px #ED582E;
   }
 
-  .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-  }
-
-  .flexContainer {
-    display: flex;
-    margin-top: 50px;
+  .director{
+    width: 43%;
     justify-content: center;
-    width: 90%;
-
-    border: 2px solid black;
-  }
-  
-  .imgContainer {
-   width: 50%;
-    border: 2px solid black;
-  }
-
-   .txtContained {
-    width: 50%;
-    border: 2px solid black;
-  }
-
-  .flexContenedor{
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-  }
-  .txtImage{
     text-align: center;
-    width: 70%;
+  }
+
+.flexContenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
   }
 
   .txtImage img{
-    width: 70%;
+    width: 80%;
+    margin-left: 100px;
   }
 
   .txtTributo{
-    width: 100%;
-    text-align: left;
-    font-size: 20px;
+    display: column;
+    justify-content: left;
+    width:50%;
+    font-size: 21px;
   }
 
   h1, h3, p{
@@ -140,5 +117,3 @@ header {
     width: 100%;
     height: 75px;
   }
-
-  
