@@ -10,6 +10,7 @@ img.onclick = function(){
   nameText.innerHTML = this.getAttribute("data-name");
 }
 
+// Obtener la imagen y el modal
 var img = document.getElementById("imgScatman");
 var modal = document.getElementById("myModal");
 
@@ -49,7 +50,7 @@ img.addEventListener("mouseover", function() {
 
 // Agregar un evento de salir del hover en la imagen para volver a su tamaño original
 img.addEventListener("mouseout", function() {
-  modalImg.style.width = "50%";
+  modalImg.style.width = "100%";
   modalImg.style.height = "auto";
   modalImg.style.display = "block";
   modalImg.style.margin = "auto";

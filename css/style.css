@@ -58,10 +58,12 @@ header {
 
   .imagen-banner{
     text-align: center;
+
   }
   
   .imagen-banner img {
     width: 80%;
+    border-radius: 5px;
   }
   
   .texto-banner {
@@ -86,46 +88,46 @@ header {
 
   .flexContainer {
     display: flex;
-    margin-top: 50px;
-    justify-content: center;
-    width: 90%;
-
-    border: 2px solid black;
+    width: 95%;
   }
   
-  .imgContainer {
-   width: 50%;
-    border: 2px solid black;
+  .flexContenedor > div {
+    font-size: 22px;
+    width: 95%;
   }
 
-   .txtContained {
-    width: 50%;
-    border: 2px solid black;
-  }
+.director {
+  width: 50%;
+  text-align: center;
+}
 
-  .flexContenedor{
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-  }
+.separate{
+  width: 40%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
   .txtImage{
     text-align: center;
-    width: 70%;
   }
 
   .txtImage img{
-    width: 70%;
+    width: 60%;
+    border-radius: 10px;
   }
 
   .txtTributo{
     width: 100%;
-    text-align: left;
-    font-size: 20px;
+    border: 2px solid black;
   }
+
+  .txtTributo h1{
+      text-align: center;
+   }
 
   h1, h3, p{
     color:#fff;
-    align-items: right;
+    align-items: center;
     margin-left: 25px;
     margin-top: 0;
   }
