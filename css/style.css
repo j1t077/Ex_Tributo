@@ -48,7 +48,6 @@ header {
   .banner {
     display: flex;
     justify-content: center;
-    border: 5px solid blue;
     height: 560px;
     background-color: #1c1c1c;
     color: #ED582E;
@@ -57,10 +56,12 @@ header {
 
   .imagen-banner{
     text-align: center;
+
   }
   
   .imagen-banner img {
     width: 80%;
+    border-radius: 5px;
   }
   
   .texto-banner {
@@ -78,22 +79,46 @@ header {
 
   .flexContenedor {
     display: flex;
-    margin-top: 50px;
+    width: 95%;
   }
   
   .flexContenedor > div {
-    margin: 5px;
     font-size: 22px;
-    width:60%;
+    width: 95%;
+  }
+
+.director {
+  width: 50%;
+  text-align: center;
+}
+
+.separate{
+  width: 40%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+  .txtImage{
+    text-align: center;
   }
 
   .txtImage img{
-    width: 100%;
+    width: 60%;
+    border-radius: 10px;
   }
+
+  .txtTributo{
+    width: 100%;
+    border: 2px solid black;
+  }
+
+  .txtTributo h1{
+      text-align: center;
+   }
 
   h1, h3, p{
     color:#fff;
-    align-items: right;
+    align-items: center;
     margin-left: 25px;
     margin-top: 0;
   }
