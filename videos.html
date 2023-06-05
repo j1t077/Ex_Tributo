@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Tributo a El Resplandor</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/videos.css" />
+  <title>Tributo a El Resplandor</title>
 </head>
+
 <body>
-    <header>
-        <div class="logo">
-         <img src="../img/logoResplandor.svg.png" alt="Logo de El resplandor">
-        </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="direccion.html">Direccion</a></li>
-            <li><a href="reparto.html">Reparto</a></li>
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="videos.html">Videos</a></li>
-          </ul>
-        </nav>
-      </header>
+  <header>
+    <div class="logo">
+      <img src="../img/logoResplandor.svg.png" alt="Logo de El resplandor" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="direccion.html">Direccion</a></li>
+        <li><a href="reparto.html">Reparto</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="videos.html">Videos</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <div class="container">
+    <div class="showSlider fade">
+      <img class="showSlider__image" src="img/galVideo/ninoEspejo.PNG" alt="Niño Espejo" />
+    </div>
+    <div class="showSlider fade">
+      <img class="showSlider__image" src="img/galVideo/gemelas.PNG" alt="Gemelas" />
+    </div>
+    <div class="showSlider fade">
+      <img class="showSlider__image" src="img/galVideo/jack.PNG" alt="Jack Nicholson" />
+    </div>
+    <div class="showSlider fade">
+      <img class="showSlider__image" src="img/galVideo/critica.PNG" alt="Critica" />
+    </div>
+    <!-- Navigation arrows -->
+    <a class="left" onclick="nextSlide(-1)">❮</a>
+    <a class="right" onclick="nextSlide(1)">❯</a>
+  </div>
 
-
-
-
-
-      <footer class="pie-pagina">
-        <p>Autores: Jesus & Jorge</p>
-        <p>&copy; 2023 - Todos los derechos reservados</p>
-      </footer>
-    
+  <footer class="pie-pagina">
+    <p>Autores: Jesus & Jorge</p>
+    <p>&copy; 2023 - Todos los derechos reservados</p>
+  </footer>
+  <script src="js/videos.js"></script>
 </body>
+
 </html>
