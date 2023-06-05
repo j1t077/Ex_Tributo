@@ -60,6 +60,7 @@ header {
   
   .imagen-banner img {
     width: 80%;
+    border-radius: 5px;
   }
   
   .texto-banner {
@@ -91,6 +92,7 @@ header {
   .txtImage img{
     width: 80%;
     margin-left: 100px;
+    border-radius: 5px;
   }
 
   .txtTributo{

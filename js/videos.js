@@ -1,21 +1,38 @@
-var slide_index = 1;
-slidesDisplay(slide_index );
-function nextSlide(n) {
-slidesDisplay(slide_index += n);
+var slideIndex = 0;
+var slides = document.getElementsByClassName("showSlider");
+
+slidesDisplay(slideIndex);
+function nextSlide() {
+    const long = slides.length;
+    if(slideIndex < long -2){
+        slidesDisplay((slideIndex += 1));   
+    }    
+       
+}
+function previousSlide(){
+    const long = slides.length; 
+    if(slideIndex>0){
+        slidesDisplay((slideIndex -= 1)); 
+    }   
+    
 }
 function currentSlide(n) {
-slidesDisplay(slide_index = n);
+  slidesDisplay((n));
 }
-function slidesDisplay(n) {
-var i;
-var slides = document.getElementsByClassName("showSlider");
-if (n > slides.length) { slide_index = 1 }
-if (n < 1) { slide_index = slides.length }
-for (i = 0; i < slides.length; i++) {
-slides[i].style.display = "none";
+function slidesDisplay(index) {
+   
+  let i;
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[index].style.display = "inline-block";
+  slides[index+1].style.display = "inline-block";
+  slides[index + 2].style.display = "inline-block";
 }
 
-slides[slide_index - 1].style.display = "inline-block";
-slides[slide_index].style.display = "inline-block";
-// slides[slide_index + 1].style.display = "inline-block";
+let foto = document.getElementById("slider_img_gemelas");
+foto.addEventListener("click", mostrarVideo);
+function mostrarVideo(){
+  alert("mostrar video");
 }
