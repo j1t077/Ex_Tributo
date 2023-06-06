@@ -55,16 +55,19 @@ header {
     color: #ED582E;
   }
   
-
   .imagen-banner{
     text-align: center;
-
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: blur(2px);
+    background-color: rgb(249, 249, 249);
+    margin-top: 3px;
   }
   
   .imagen-banner img {
-    width: 80%;
+    width: 70%;
     border-radius: 5px;
-  }
+   }
   
   .texto-banner {
     position: absolute;
@@ -79,17 +82,9 @@ header {
     text-shadow: 2px 2px #ED582E;
   }
   
-.director {
-  width: 55%;
-  justify-content: center;
-  text-align: center;
-}
-
-.separate{
-  width: 40%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+  .separate {
+    width: 40%;
+  }
 
 .flexContenedor {
   display: flex;
@@ -99,14 +94,16 @@ header {
 }
 
 .txtImage img{
-  width: 70%;
-  text-align: center;
+  width: 600px;
+  margin-left: 100px;
+  border-radius: 10px;
+  border:2px solid black;
 }
 
 .txtTributo{
-  display: column;
+  display: column; 
   justify-content: left;
-  width:50%;
+  width:55%;
   font-size: 21px;
 }
 

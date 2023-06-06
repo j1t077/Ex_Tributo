@@ -17,5 +17,5 @@ slides[i].style.display = "none";
 
 slides[slide_index - 1].style.display = "inline-block";
 slides[slide_index].style.display = "inline-block";
-// slides[slide_index + 1].style.display = "inline-block";
+slides[slide_index + 1].style.display = "inline-block";
 }

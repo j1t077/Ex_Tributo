@@ -1,0 +1,105 @@
+body {
+    width: 100%;
+    background-color: #1c1c1c;
+    margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #111111;
+  color: #ffffff;
+  }
+
+  header * {
+    margin-top: 0px;
+  }
+  
+  .logo img {
+    width: 300px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    letter-spacing: 1.5px;
+    font-family: "Saira", Sans-serif;
+  }
+  
+  nav a:hover {
+    color: #ED582E;
+  }
+
+.protas{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color:#ED582E;   
+}
+
+.flexConten{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.imgProtas img{
+    width: 295px;
+    height: 400px;
+    margin-left: 100px;
+
+}
+.imgProtas2 img{
+    width: 295px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.txtBio{
+    display: column; 
+    justify-content: left;
+    width:60%;
+    font-size: 21px;
+}
+
+.txtProtas{
+    color: #ED582E;
+    text-shadow: 2px 2px 4px #5b5b5b;
+}
+
+.separate{
+    width: 40%;
+}
+
+h1, h3, p{
+    color: #ffffff;
+    margin-left: 25px;
+    margin-top: 0;
+  }
+
+  .pie-pagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #111111; 
+    color: white; 
+    text-align: center;
+    width: 100%;
+    height: 75px;
+  }
