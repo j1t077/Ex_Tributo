@@ -5,7 +5,13 @@ body {
     background-color: #1c1c1c;
     margin: 0px;
 }
-
+main{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -86,18 +92,19 @@ header {
     width: 40%;
   }
 
-.flexContenedor {
+.flexContainer {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  width: 100%;
+  width: 90%;
 }
-
+.txtImage{
+  max-width: 50%;
+  /* border: 10px solid yellow; */
+}
 .txtImage img{
-  width: 600px;
-  margin-left: 100px;
-  border-radius: 10px;
-  border:2px solid black;
+  width: 100%;
+  
 }
 
 .txtTributo{
