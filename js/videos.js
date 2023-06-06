@@ -34,5 +34,7 @@ function slidesDisplay(index) {
 let foto = document.getElementById("slider_img_gemelas");
 foto.addEventListener("click", mostrarVideo);
 function mostrarVideo(){
-  alert("mostrar video");
+  const element = document.getElementById("video_content");
+  element.style.display = "flex";
+  element.style.visibility = "visible"
 }
