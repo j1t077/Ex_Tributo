@@ -72,12 +72,21 @@ header {
       border: 2px solid black;
     }
 
+    .flexContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .video_container{
-      width: 60%;
+      width: 50%;
+      flex: 1;
+      margin-left: 20px;
     }
 
     .text_container{
-      width: 50%;
+      flex: 1;
+  margin-left: 20px;
     }
 
 

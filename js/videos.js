@@ -4,7 +4,7 @@ var slides = document.getElementsByClassName("showSlider");
 slidesDisplay(slideIndex);
 function nextSlide() {
     const long = slides.length;
-    if(slideIndex < long -2){
+    if(slideIndex < long -3){
         slidesDisplay((slideIndex += 1));   
     }    
        
