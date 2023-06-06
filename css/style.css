@@ -56,7 +56,6 @@ header {
   .banner {
     display: flex;
     justify-content: center;
-    height: 300px;
     background-color: #1c1c1c;
     color: #ED582E;
   }
@@ -64,7 +63,6 @@ header {
   .imagen-banner{
     text-align: center;
     background-repeat: no-repeat;
-    position: absolute;
     filter: blur(2px);
     background-color: rgb(249, 249, 249);
     margin-top: 3px;
