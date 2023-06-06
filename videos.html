@@ -1,56 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/videos.css" />
+    <title>Tributo a El Resplandor</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=, initial-scale=1.0" />
-  <link rel="stylesheet" href="../css/videos.css" />
-  <title>Tributo a El Resplandor</title>
-</head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../img/logoResplandor.svg.png" alt="Logo de El resplandor" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="direccion.html">Direccion</a></li>
+          <li><a href="reparto.html">Reparto</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="videos.html">Videos</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <div class="logo">
-      <img src="../img/logoResplandor.svg.png" alt="Logo de El resplandor" />
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="direccion.html">Direccion</a></li>
-        <li><a href="reparto.html">Reparto</a></li>
-        <li><a href="galeria.html">Galeria</a></li>
-        <li><a href="videos.html">Videos</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+      <div class="container">
+        <div class="showSlider fade">
+          <img
+            class="showSlider__image"
+            src="img/galVideo/ninoEspejo.PNG"
+            alt="Niño Espejo"
+          />
+        </div>
+        <div class="showSlider fade">
+          <img
+            id="slider_img_gemelas"
+            class="showSlider__image"
+            src="img/galVideo/gemelas.PNG"
+            alt="Gemelas"
+          />
+        </div>
+        <div class="showSlider fade">
+          <img
+            class="showSlider__image"
+            src="img/galVideo/jack.PNG"
+            alt="Jack Nicholson"
+          />
+        </div>
+        <div class="showSlider fade">
+          <img
+            class="showSlider__image"
+            src="img/galVideo/critica.PNG"
+            alt="Critica"
+          />
+        </div>
+        <!-- Navigation arrows -->
+        <a class="left" onclick="previousSlide()">❮</a>
+        <a class="right" onclick="nextSlide()">❯</a>
+      </div>
 
-  <div class="container">
-    <div class="showSlider fade">
-      <img class="showSlider__image" src="img/galVideo/ninoEspejo.PNG" alt="Niño Espejo" />
-    </div>
-    <div class="showSlider fade">
-      
-        <img id="slider_img_gemelas" class="showSlider__image" src="img/galVideo/gemelas.PNG" alt="Gemelas" />
-     
-      
-    </div>
-    <div class="showSlider fade">
-      <img class="showSlider__image" src="img/galVideo/jack.PNG" alt="Jack Nicholson" />
-    </div>
-    <div class="showSlider fade">
-      <img class="showSlider__image" src="img/galVideo/critica.PNG" alt="Critica" />
-    </div>
-    <!-- Navigation arrows -->
-    <a class="left" onclick="previousSlide()">❮</a>
-    <a class="right" onclick="nextSlide()">❯</a>
-  </div>
+      <section id="video">
+        <div class="flexContainer">
+          <div class="video_container">   
+          <iframe width="720" height="480" src="https://www.youtube.com/embed/5gMkGbyEnag" title="Gemelas (escena) El resplandor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="text_container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              amet numquam quisquam culpa placeat sed, corporis doloribus iusto
+              maiores tenetur eaque. Ipsum necessitatibus delectus ad in
+              temporibus quaerat quos, praesentium, perferendis quis quia
+              fugiat, incidunt officia minima repellendus assumenda! Error quis
+              perspiciatis quasi ipsam culpa accusantium accusamus tempora
+              recusandae laboriosam ut facilis, neque exercitationem sint, ipsum
+              earum. Tempora asperiores iusto cum voluptatum pariatur voluptates
+              sed ex, distinctio dicta, sint iste atque fugiat reprehenderit
+              iure repellat praesentium ipsum. Laboriosam delectus non
+              consequuntur et modi autem, quam sunt perferendis eligendi soluta
+              dolorum voluptatibus sapiente veritatis eaque, similique ipsa!
+              Rerum ipsum nemo iusto doloribus, dolorem exercitationem pariatur
+              dolore a odio, necessitatibus, mollitia possimus perspiciatis
+              cupiditate alias cumque. Ut tempore cum sapiente inventore
+              quibusdam. Unde tempora corporis laborum provident neque quasi,
+              sed iure accusantium ratione praesentium placeat accusamus
+              deserunt deleniti molestias tempore expedita cumque necessitatibus
+              aut quam! Nam atque voluptatum provident, sunt reprehenderit
+              natus?
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-  <footer class="pie-pagina">
-    <p>Autores: Jesus & Jorge</p>
-    <p>&copy; 2023 - Todos los derechos reservados</p>
-  </footer>
-  <script src="js/videos.js"></script>
-</body>
-
+    <footer class="pie-pagina">
+      <p>Autores: Jesus & Jorge</p>
+      <p>&copy; 2023 - Todos los derechos reservados</p>
+    </footer>
+    <script src="js/videos.js"></script>
+  </body>
 </html>

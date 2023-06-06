@@ -58,11 +58,29 @@ header {
     .showSlider img {
     width: 100%;
     }
+
     .container {
     max-width: 65%;
     position: relative;
     margin: auto;
     }
+
+    #video{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: 2px solid black;
+    }
+
+    .video_container{
+      width: 60%;
+    }
+
+    .text_container{
+      width: 50%;
+    }
+
+
     .left, .right {
     cursor: pointer;
     position: absolute;
