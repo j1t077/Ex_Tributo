@@ -4,7 +4,7 @@ var slides = document.getElementsByClassName("showSlider");
 slidesDisplay(slideIndex);
 function nextSlide() {
     const long = slides.length;
-    if(slideIndex < long -2){
+    if(slideIndex < long -3){
         slidesDisplay((slideIndex += 1));   
     }    
        
@@ -34,5 +34,7 @@ function slidesDisplay(index) {
 let foto = document.getElementById("slider_img_gemelas");
 foto.addEventListener("click", mostrarVideo);
 function mostrarVideo(){
-  alert("mostrar video");
+  const element = document.getElementById("video_content");
+  element.style.display = "flex";
+  element.style.visibility = "visible"
 }
