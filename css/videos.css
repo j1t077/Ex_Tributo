@@ -82,7 +82,7 @@ header {
     .video_container{
       display: flex;
       justify-content: center;
-      width: 60%;
+      width: 80%;
       flex: 1;
     }
 
@@ -95,8 +95,9 @@ header {
       display: flex;
       flex-direction: column;
       justify-content: center;
-    }
+      font-size: 24px;
 
+    }
 
     .left, .right {
     cursor: pointer;
