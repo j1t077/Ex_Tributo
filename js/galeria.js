@@ -1,7 +1,7 @@
-var imgScatman = document.getElementById("imgScatman");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-var nameText = document.getElementById("name");
+let imgScatman = document.getElementById("imgScatman");
+let modalImg = document.getElementById("img01");
+let captionText = document.getElementById("caption");
+let nameText = document.getElementById("name");
 
 imgScatman.onclick = function(){
   modal.style.display = "block";
@@ -10,7 +10,7 @@ imgScatman.onclick = function(){
   nameText.innerHTML = this.getAttribute("data-name");
 }
 
-var modal = document.getElementById("myModal");
+let modal = document.getElementById("myModal");
 
 modalImg.src = imgScatman.src;
 captionText.innerHTML = imgScatman.alt;
@@ -19,7 +19,7 @@ imgScatman.onclick = function() {
   modal.style.display = "block";
 }
 
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
